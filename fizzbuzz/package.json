@@ -1,0 +1,20 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "fizzbuzz kata",
+  "main": "src/FizzBuzz.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "jest": "^24.8.0"
+  }
+}
